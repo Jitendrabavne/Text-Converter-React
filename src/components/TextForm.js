@@ -32,11 +32,7 @@ export default function TextForm(props) {
     props.showAlert("Text Has Been Converted in to Lower Case!", "success");
   };
   const handleOnChange = (event) => {
-    console.log("handle is Changed");
-    let selectText = document.getElementById("myBox");
-
-    selectText.select();
-
+    console.log("handle is Changed"); 
     setText(event.target.value);
   };
 
